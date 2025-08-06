@@ -1,0 +1,60 @@
+.leading-section {
+  margin: 8rem 0rem;
+}
+.leading-section .heading h2, .leading-section .heading h3 {
+    font-family: var(--font-family-title);
+    font-size: 55px;
+    font-weight: 200;
+    color: var(--color-black);
+    line-height: 54px;
+    letter-spacing: -3%;
+    text-align: center;
+}
+
+.leading-section > .leading-truck-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.leading-section > .leading-truck-container > .leading-circle-bg {
+    position: absolute;
+    top: -25%;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    z-index: -1;
+}
+
+.leading-section > .leading-truck-container > .leading-truck-img {
+  position: relative;
+  width: 40%;
+  z-index: 2;
+}
+
+@media (max-width: 992px) {
+  .leading-section .heading h2, .leading-section .heading h3 {
+    font-size: 45px;
+    line-height: 44px;
+  }
+
+  .leading-section .leading-truck-container {
+     width: 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .leading-section {
+    margin: 3rem 0rem;
+  }
+
+  .leading-section .heading h2, .leading-section .heading h3 {
+    font-size: 35px;
+    line-height: 34px;
+  }
+
+  .leading-section > .leading-truck-container > .leading-truck-img {
+    width: 85%;
+  }
+}

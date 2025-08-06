@@ -1,0 +1,103 @@
+.accordion-section {
+    background-image: url("../images/trucks/img-1.png");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-size: auto;
+}
+
+.accordion,
+.accordion-item,
+.accordion-button {
+    border: none;
+}
+
+.accordion-item {
+    border-bottom: 1px solid var(--color-border);
+}
+
+.accordion-button {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: var(--color-white);
+    color: var(--color-primary);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
+
+.accordion-body {
+    padding: 0.5rem;
+}
+
+/* Table Styles */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+    background-color: var(--color-table-bg);
+}
+
+.table td,
+.table th {
+    padding: 14px 24px;
+    background-color: var(--color-table-bg);
+    border-bottom: none;
+}
+
+.splide__pagination {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.splide__pagination.splide__pagination-header {
+    margin-top: -2rem;
+    padding-bottom: 2rem;
+}
+
+.splide__pagination--custom {
+    gap: 24px;
+}
+
+.splide__pagination--custom .splide__pagination__page {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    box-shadow:
+        0 0 0 6px white,
+        0 0 0 8px transparent,            
+        0 0 10px 2px transparent;
+    transition: transform var(--transition-standard), 
+                opacity var(--transition-standard),
+                box-shadow var(--transition-standard);
+}
+
+.splide__pagination--custom .splide__pagination__page.is-active {
+    transform: scale(1);
+    opacity: 1;
+    box-shadow:
+        0 0 0 6px white,
+        0 0 0 8px var(--color-primary),            
+        0 0 10px 2px var(--color-primary);
+}
+
+.splide__pagination--custom .splide__pagination__page:hover {
+    background: var(--color-primary-hover);
+}
+
+@media (max-width: 992px) {
+    .splide__pagination {
+      font-size: 40px;
+    }
+  }
+  
+@media (max-width: 576px) {
+    .products-title {
+        font-size: 26px;
+    }
+}

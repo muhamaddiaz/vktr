@@ -1,0 +1,7 @@
+<svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="80" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <polygon points="60,15 75,35 45,35" fill="#2c5530"/>
+  <rect x="55" y="35" width="10" height="15" fill="#2c5530"/>
+  <text x="60" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="9" font-weight="bold" fill="#2c5530">ADARO</text>
+  <text x="60" y="70" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">ENERGY</text>
+</svg>

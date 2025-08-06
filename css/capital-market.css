@@ -1,0 +1,146 @@
+/* Capital Market Professionals Styles */
+
+.market-cards {
+    padding: 80px 0;
+    background-color: #f8f9fa;
+}
+
+.market-card {
+    background: white;
+    border-radius: 12px;
+    padding: 30px;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    transition: all 0.3s ease;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.market-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.12);
+}
+
+.market-card-header {
+    text-align: center;
+    margin-bottom: 25px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #D9D9D9;
+}
+
+.market-card-type {
+    padding: 8px 20px;
+    font-size: 0.938rem;
+    font-weight: 700;
+    display: inline-block;
+    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+}
+
+.market-card-logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.market-card-logo img {
+    max-width: 50px;
+    max-height: 50px;
+    object-fit: contain;
+}
+
+.market-card-company {
+    font-size: 0.813rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.market-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.market-card-address {
+    color: #666;
+    font-size: 0.813rem;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.market-card-contact {
+    margin-bottom: 20px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+    font-size: 0.813rem;
+    color: #555;
+}
+
+.services-text {
+    padding-top: 20px;
+    font-size: 0.813rem;
+    line-height: 1.4;
+}
+
+/* Responsive Design */
+@media (max-width: 991.98px) {
+    .market-cards {
+        padding: 60px 0;
+    }
+    
+    .market-cards-title h2 {
+        font-size: 2rem;
+    }
+    
+    .market-card {
+        margin-bottom: 25px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .market-cards {
+        padding: 40px 0;
+    }
+    
+    .market-cards-title {
+        margin-bottom: 40px;
+    }
+    
+    .market-cards-title h2 {
+        font-size: 1.75rem;
+    }
+    
+    .market-card {
+        padding: 25px;
+        margin-bottom: 20px;
+    }
+    
+    .market-card-logo {
+        width: 70px;
+        height: 70px;
+    }
+    
+    .market-card-logo img {
+        max-width: 40px;
+        max-height: 40px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .market-cards-title h2 {
+        font-size: 1.5rem;
+    }
+    
+    .market-card {
+        padding: 20px;
+    }
+}

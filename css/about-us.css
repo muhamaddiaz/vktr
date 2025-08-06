@@ -1,0 +1,281 @@
+@import url('variables.css');
+
+.about-us-wrap {
+  overflow-x: hidden;
+}
+
+/* Banner Section */
+.hero-banner {
+    background: url('../images/banner-about-us.jpg') center bottom/cover no-repeat;
+    min-height: 500px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+@media (min-width: 1281px) {
+    .hero-banner {
+        min-height: 650px;
+    }
+}
+
+
+
+.hero-banner .container {
+    position: relative;
+    z-index: 2;
+}
+
+.hero-banner h1 {
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+}
+
+.hero-banner p {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* Company History Section */
+.company-history-section {
+    background: #ffffff;
+}
+
+.company-history-section h2 {
+    font-weight: 700;
+    font-size: 1.875rem;
+}
+
+.company-history-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #6c757d;
+}
+
+.company-history-section img {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+}
+
+.company-history-section img:hover {
+    transform: scale(1.02);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15);
+}
+
+.company-history-section .row {
+    position: relative;
+}
+
+
+/* Video Section */
+
+.video-section img {
+  transition: transform 0.3s ease;
+  border-radius: 15px;
+}
+
+.video-section img:hover {
+  transform: scale(1.02);
+}
+
+.video-section .btn {
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,123,255,0.3);
+}
+
+.video-section .btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(0,123,255,0.4);
+}
+
+/* Modal Styling */
+.modal-content {
+  border-radius: 15px;
+  border: none;
+  overflow: hidden;
+}
+
+.modal-header {
+  background: linear-gradient(135deg, #007bff 0%, #0056b3 100%);
+  color: white;
+}
+
+.modal-title {
+  font-weight: 600;
+}
+
+.btn-close {
+  filter: invert(1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-banner {
+        min-height: 400px;
+        text-align: center;
+    }
+    
+    .hero-banner .offset-lg-6 {
+        margin-left: 0 !important;
+    }
+    
+    .hero-banner h1 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-banner p {
+        font-size: 1.1rem;
+    }
+  
+  .company-history-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .company-history-section p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .company-history-section .row {
+    margin-bottom: 3rem;
+  }
+  
+  .video-section img {
+    max-width: 100% !important;
+  }
+  
+  .video-section .btn {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .video-section .btn i {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (max-width: 576px) {
+    .hero-banner {
+        min-height: 350px;
+    }
+    
+    .hero-banner h1 {
+        font-size: 2rem;
+    }
+    
+    .hero-banner p {
+        font-size: 1rem;
+    }
+  
+  .company-history-section {
+    padding: 3rem 0;
+  }
+  
+  .company-history-section h2 {
+    font-size: 1.75rem;
+    text-align: center;
+  }
+  
+  .company-history-section p {
+    text-align: center;
+    font-size: 0.95rem;
+  }
+  
+  .company-history-section img {
+    margin-top: 1.5rem;
+  }
+  
+  .video-section h3 {
+    font-size: 1.75rem;
+  }
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.investment-section .card {
+  animation: fadeInUp 0.6s ease forwards;
+}
+
+.investment-section .card:nth-child(1) {
+  animation-delay: 0.1s;
+}
+
+.investment-section .card:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.investment-section .card:nth-child(3) {
+  animation-delay: 0.3s;
+}
+
+.investment-section .card:nth-child(4) {
+  animation-delay: 0.4s;
+}
+
+.investment-section .card:nth-child(5) {
+  animation-delay: 0.5s;
+}
+
+.about-us {
+  margin: 70px auto;
+  padding: 0 160px;
+}
+
+.about-us-title-wrapper {
+  padding: 0 35px;
+}
+
+.about-us-title-wrapper h2 {
+  font-family: var(--font-family-title);
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.about-us-title-wrapper h2 > b {
+  color: var(--color-primary);
+}
+
+.about-us-description-wrapper p {
+  font-family: var(--font-family-title);
+  font-size: 15px;
+  font-weight: 300;
+  line-height: 23px;
+}
+
+@media (max-width: 992px) {
+  .about-us {
+    padding: 2rem;
+  }
+
+  .about-us-title-wrapper, .about-us-description-wrapper {
+    padding: 0px;
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .about-us {
+    margin: 2rem 0;
+  }
+
+  .banner-splide-title {
+    font-size: 35px;
+    width: 100%;
+  }
+}
+

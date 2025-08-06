@@ -1,0 +1,258 @@
+.relations-section {
+  background: linear-gradient(to bottom, #F4FFEB, #FFFFFF);
+  padding: 3rem 0;
+}
+
+.relations-title {
+  font-family: var(--font-family-title);
+  font-size: 55px;
+  font-weight: 200;
+  color: var(--color-black);
+  margin-bottom: 16px;
+  letter-spacing: -3%;
+  text-align: center;
+}
+
+.relations-status {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem;
+  border: 1px solid #F2F2F2;
+  border-radius: 10px;
+}
+
+.relations-section a {
+  color: var(--color-primary);
+  font-family: var(--font-family-main);
+  font-size: 15px;
+  font-weight: 800;
+}
+
+.relations-status .current p {
+  margin: 0;
+}
+
+.relations-status .current .current-title {
+  font-family: var(--font-family-title);
+  font-size: 15px;
+  font-weight: 400;
+  color: #767676;
+}
+
+.relations-status .current .current-updated-at {
+  font-family: var(--font-family-main);
+  font-size: 13px;
+  font-weight: 500;
+  color: #888D9F;
+}
+
+.relations-status .current .current-price {
+  display: flex;
+  align-items: center;
+}
+
+.relations-status .current .current-price h2 {
+  font-size: 58px;
+  font-weight: 700;
+  font-family: var(--font-family-main);
+  line-height: 100%;
+  margin-right: 1rem;
+}
+
+.relations-status .current .current-price .change-info p {
+  font-family: var(--font-family-main);
+  font-size: 23px;
+  font-weight: 800;
+  color: var(--color-primary);
+  margin: 0;
+  line-height: 100%;
+}
+
+.relations-status .history {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 2rem 0;
+  border: 1px solid #e5e7eb;
+  border-radius: 17px;
+}
+
+.relations-section .history li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  border-right: 1px solid #e5e7eb;
+}
+
+.relations-section .history li:last-of-type {
+  border-right: none;
+}
+
+.relations-section .history li p {
+  font-family: var(--font-family-title);
+  font-size: 16px;
+  font-weight: 400;
+  color: #909090;
+}
+
+.relations-section .history li h3 {
+  font-family: var(--font-family-main);
+  font-size: 25px;
+  font-weight: 600;
+  color: var(--color-black);
+  margin: 0;
+}
+
+.relations-button {
+  margin: 0 auto;
+}
+
+.relations-report {
+  display: flex;
+  margin: 3rem 0;
+}
+
+.relations-report-content, .relations-report-updates {
+  flex: 1;
+}
+
+.relations-report .relations-report-content {
+  display: flex;
+}
+
+.relations-report .relations-report-content img {
+  width: 260px;
+}
+
+.relations-report .relations-report-info, .relations-report .relations-report-updates {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* padding: 4rem; */
+}
+
+.relations-report .relations-report-info h2, .relations-report .relations-report-updates h2 {
+  font-family: var(--font-family-title);
+  font-size: 25px;
+  font-weight: 400;
+  margin-bottom: 22px;
+}
+
+.relations-report-updates {
+  border-left: 1px solid #D9D9D9;
+}
+
+.relations-report .relations-report-info > div > p {
+  font-family: var(--font-family-main);
+  font-size: 20px;
+  font-weight: 200;
+  color: var(--color-black);
+  width: 70%;
+}
+
+.relations-report .relations-report-info-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.relations-report .relations-report-updates-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 2rem;
+}
+
+.relations-report .relations-report-updates-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #D9D9D9;
+}
+
+.relations-report .relations-wrapper {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 2rem 4rem;
+}
+
+.custom-pdf-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  white-space: nowrap;
+  width: 101px;
+}
+
+.custom-pdf-download:hover {
+  color: var(--color-primary) !important;
+  text-decoration: underline;
+}
+
+.custom-pdf-download img {
+  width: 18px;
+  height: 18px;
+}
+
+.custom-pdf-download p {
+  margin: 0;
+}
+
+@media (max-width: 992px) {
+  .relations-title {
+    font-size: 40px;
+  }
+
+  .relations-status {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .relations-status .current {
+    margin-bottom: 1rem;
+  }   
+
+  .relations-report {
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .relations-report-content {
+    padding: 0 2rem;
+  }
+
+  .relations-report-content img {
+    width: 200px;
+  }
+
+  .relations-report .relations-wrapper {
+    padding: 2rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .relations-title {
+      font-size: 32px;
+  }
+
+  .relations-report .relations-report-content img {
+    width: 150px;
+  }
+
+  .relations-status .history {
+    padding: 1rem 0;
+  }
+
+  .relations-status .history li {
+    flex: 1;
+    flex: 1 0 auto;
+    min-width: 200px;
+  }
+}
+

@@ -1,0 +1,976 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VKTR Corporate - Homepage</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/5f47eddfc1.js" crossorigin="anonymous"></script>
+
+    <!-- Slick Slider CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+    <link rel="stylesheet" href="css/mainstyle.css">
+    <link rel="stylesheet" href="css/front-page.css">
+
+    <!-- Feather Icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+            <div class="container-fluid p-0 border-bottom">
+                <div class="col col-md-3 col-lg-2">                
+                      <div class="menuwrap">
+                        <button class="burger-menu" id="burgerMenu">
+                            <img src="images/Burgermenu_black.svg" alt="Menu" width="24" height="24">
+                        </button>
+                        <span>MENU</span>
+                      </div>
+                </div>
+                <div class="col col-md-6 col-lg-8 py-3 border-start  border-end">			
+                      <div class="logo_vktr">
+                        <a class="navbar-brand" href="#">
+                          <img src="images/logo_vktr.svg" alt="VKTR" height="40">
+                        </a>
+                      </div>
+                </div>
+                <div class="col col-md-3 col-lg-2 py-3 pe-md-4">	                                                      
+                    <div class="language-selector"> 
+                          <img src="images/globe_black.svg" alt="Language" class="globe-icon">
+                          <div class="dropdown">
+                            <button class="btn dropdown-toggle" type="button" id="languageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                              <span class="ms-1">EN</span>
+                              <i class="fas fa-chevron-down ms-1"></i>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="languageDropdown">
+                              <li><a class="dropdown-item active" href="#" data-lang="en">EN</a></li>
+                              <li><a class="dropdown-item" href="#" data-lang="in">IN</a></li>
+                            </ul>
+                          </div>
+                        </div>
+                </div>
+            </div>
+        </nav>
+        
+        <div class="fullscreen-menu" id="fullscreenMenu">
+            <div class="container-fluid p-0 h-100">
+                <div class="row g-0 h-100">										
+										<div class="col col-md-3 submenu-bg-left d-none d-md-block">
+											<div class="whiteLogo">
+												<img class="" src="images/submenu-logo_white.png" alt="VKTR">
+											</div>
+											<div class="footerLine">
+												<img  src="images/footer_line.png" alt="Footer Line">
+											</div>											
+										</div>
+										<div class="col col-md-9">
+											<div class="container-fluid">
+												<div class="row border-bottom">
+													<div class="col-9 col-md-10  p-2">
+														<div class="close-menu text-end" id="closeMenu">
+															<i class="fa-light fa-xmark-large"></i>
+															<span>CLOSE</span>
+														</div>
+													</div>
+													<div class="col-3 col-md-2  p-2">
+														<div class="language-selector me-3"> 
+															<img src="images/globe_black.svg" alt="Language" class="globe-icon">
+															<div class="dropdown">
+																<button class="btn dropdown-toggle" type="button" id="fullscreenLanguageDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+																	<span class="ms-1">EN</span>
+																	<i class="fas fa-chevron-down ms-1"></i>
+																</button>
+																<ul class="dropdown-menu" aria-labelledby="fullscreenLanguageDropdown">
+																	<li><a class="dropdown-item active" href="#" data-lang="en">EN</a></li>
+																	<li><a class="dropdown-item" href="#" data-lang="in">IN</a></li>
+																</ul>
+															</div>
+														</div>
+													</div>
+												</div>
+												<div class="row p-2 p-md-5 pe-4 pb-4">
+													<div class="col-12 col-md-9 col-lg-10">														
+														<nav class="main-menu">
+															<div class="menu-item">
+																<a href="#" class="menu-link">About Us <i class="fas fa-chevron-down"></i></a>
+																<div class="submenu">
+																		<a href="#">About Us</a>
+																		<a href="#">Milestones</a>
+																		<a href="#">Vision & Mission</a>
+																		<a href="#">Management</a>
+																		<a href="#">Awards</a>
+																		<a href="#">Corporate Structure</a>
+																		<a href="#">Partners</a>
+																		<a href="#">Capital Market Professionals</a>
+																		<a href="#">Global Initiatives</a>
+																</div>
+														  </div>
+                              <div class="menu-item">
+														    <a href="#" class="menu-link">Our Business <i class="fas fa-chevron-down"></i></a>
+                                <div class="submenu">
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>Products</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Electric Bus</a>
+                                      <a href="#">Electric Truck</a>
+                                      <a href="#">Passenger Transporter</a>
+                                      <a href="#">Forklift</a>
+                                    </div>
+                                  </div>
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>Facilities</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Production Lines</a>
+                                      <a href="#">Research & Development</a>
+                                      <a href="#">Warehouse</a>
+                                    </div>
+                                  </div>
+                                </div>
+												      </div>
+                              <div class="menu-item">
+														    <a href="#" class="menu-link">Investor Relations <i class="fas fa-chevron-down"></i></a>
+                                <div class="submenu">
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>Financial Results</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Financial Highlights</a>
+                                      <a href="#">Quartely Result</a>
+                                    </div>
+                                  </div>
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>Stock Information</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Interactive Chart</a>
+                                      <a href="#">Stock Fundamentals</a>
+                                      <a href="#">Investment Calculator</a>
+                                      <a href="#">Historical Price</a>
+                                    </div>
+                                  </div>
+                                  <a href="#">Annual & Sustainability Reports</a>
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>General Meetings</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Dividens Policy</a>
+                                      <a href="#">Announcement</a>
+                                    </div>
+                                  </div>
+                                  <a href="#">IDX Disclosures</a>
+                                  <a href="#">Prospectus</a>
+                                  <a href="#">Corporate Presentations</a>
+                                  <a href="#">IR Contact</a>
+                                </div>
+												      </div>
+                              <div class="menu-item">
+														    <a href="#" class="menu-link">ESG <i class="fas fa-chevron-down"></i></a>
+                                <div class="submenu">
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>Environment</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Environment</a>
+                                      <a href="#">Responsibility</a>
+                                    </div>
+                                  </div>
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>Social</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Social Responsibility</a>
+                                    </div>
+                                  </div>
+                                  <div class="submenu-item">
+                                    <a href="#" class="submenu-link"><span>Governance</span> <i class="fas fa-chevron-down"></i></a>
+                                    <div class="third-level-menu">
+                                      <a href="#">Corporate Secretary</a>
+                                      <a href="#">Audit Committee</a>
+                                      <a href="#">Nomination & Remuneration</a>
+                                      <a href="#">Risk Minitoring</a>
+                                      <a href="#">Code of Conduct</a>
+                                      <a href="#">Governance Policies</a>
+                                      <a href="#">Board Charters</a>
+                                      <a href="#">Articles of Association</a>
+                                      <a href="#">Internal Audit</a>
+                                      <a href="#">Risk Management</a>
+                                      <a href="#">Whishtleblowing</a>
+                                    </div>
+                                  </div>                                  
+                                </div>
+												      </div>
+                              <div class="menu-item">
+																<a href="#" class="menu-link">News <i class="fas fa-chevron-down"></i></a>
+																<div class="submenu">
+																		<a href="#">News Coverage</a>
+																		<a href="#">Press Release</a>
+																</div>
+														  </div>
+														  <div class="menu-item">
+																<a href="#" class="menu-link">Contact</a>
+															</div>
+															<div class="menu-item">
+																<a href="#" class="menu-link">Career</a>
+															</div>
+														</nav>
+													</div>
+													<div class="col-12 col-md-3 col-lg-2 d-none d-md-block">
+														<div class="menu-image">
+																<img src="images/submenu-img2.jpg" alt="VKTR Vehicle" class="img-fluid">
+																<div class="image-caption">
+																		<p>The Company was established as PT Bakrie Steel Industries in 2007 with a mandate to commercialize vehicle.</p>
+																</div>
+														</div>
+													</div>
+												</div>
+												<div class="row ps-md-5">
+													<div class="col-12 col-md-10 d-md-flex justify-content-between">
+														<div class="followUs">
+															<span>FOLLOW US</span>
+															<div class="footer-social">
+                                <a href="#" class="social-link">
+                                    <img src="images/facebook (1).svg" alt="Facebook" width="24" height="24">
+                                </a>
+                                <a href="#" class="social-link">
+                                    <img src="images/instagram (1).svg" alt="Instagram" width="24" height="24">
+                                </a>
+                                <a href="#" class="social-link">
+                                    <img src="images/linkedin (1).svg" alt="LinkedIn" width="24" height="24">
+                                </a>
+                            	</div>
+														</div>
+														<div class="copyright">
+															<span> 2025 VKTR TEKNOLOGI MOBILITAS TBK. ALL RIGHTS RESERVED.</span>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="home-banner">
+            <div class="splide" id="headerSlider">
+              <div class="splide__track">
+                  <ul class="splide__list">
+                      <li class="splide__slide">
+                          <div class="banner-splide-container">
+                            <h1 class="banner-splide-title">Indonesia Born Global Contribution</h1>
+                            <div class="banner-splide-image banner-splide-image-1"></div>
+                            <button class="play-button" aria-label="Play Video" data-video="https://www.youtube.com/embed/dQw4w9WgXcQ">
+                              <i class="fas fa-play"></i>
+                            </button>
+                          </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="banner-splide-container">
+                          <h1 class="banner-splide-title">Indonesia Born Global Contribution</h1>
+                          <div class="banner-splide-image banner-splide-image-2"></div>
+                        </div>
+                      </li>
+                      <li class="splide__slide">
+                        <div class="banner-splide-container">
+                          <h1 class="banner-splide-title">Indonesia Born Global Contribution</h1>
+                          <div class="banner-splide-image banner-splide-image-3"></div>
+                        </div>
+                      </li>
+                  </ul>
+              </div>
+          </div>
+
+            <!-- Video Modal -->
+            <div id="videoModal" class="video-modal">
+                <div class="video-modal-content">
+                    <span class="video-modal-close">&times;</span>
+                    <iframe id="videoFrame" src="" allowfullscreen></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="home-irstocks">
+          <div class="container-fluid">
+            <div class="stock-ticker">
+              <div class="stock-info">
+                <span class="stock-symbol">VKTR</span>
+                <span class="stock-exchange">IDR950</span>
+                <span class="stock-change positive">
+                  <i class="fas fa-caret-up"></i>
+                  45 (4.97%)
+                </span>
+                <span class="stock-date">24 April 2025</span>
+                <span class="stock-time">14:18</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="about-us container">
+          <div class="row">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 about-us-title-wrapper">
+              <h2>The Company was established as <b>PT Bakrie Steel Industries in 2007</b> with a mandate in commercial vehicle and other metal component distributors.</h2>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 about-us-description-wrapper">
+              <p>In 2019, the Company focused on distributing commercial vehicle and heavy equipment components for mining contractor companies, palm oil plantations, logistics companies, and other organizations such as Organisasi Angkutan Darat, Asosiasi Pengguna Truk Indonesia, and Ikatan Pengusaha Otobus Muda Indonesia.</p>
+              <button class="btn btn-primary card-hover-btn">
+                About Us
+                <span class="btn-circle-icon">
+                    <i data-feather="arrow-right"></i>
+                </span>
+              </button>
+            </div>
+          </div>
+        </section>
+
+        <section class="leading-section">
+            <div class="heading">
+                <h2>Leading the Charge</h2>
+                <h3>Every Optimistic Step Matters</h3>
+            </div>
+            
+            <div class="leading-truck-container">
+                <img src="images/Ellipse 252.png" alt="Background Circle" class="leading-circle-bg">
+                <img src="images/DEPAN 1 2.png" alt="VKTR Truck" class="leading-truck-img">
+            </div>
+            
+            <div class="statistics">
+                <div class="stat-item">
+                    <div class="stat-number">40,500 <span class="plus">+</span></div>
+                    <div class="stat-label">Square Meter</div>
+                    <div class="stat-sublabel">EV Assembly Facility</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">3,000 <span class="plus">+</span></div>
+                    <div class="stat-label">Buses and Truck</div>
+                    <div class="stat-sublabel">of EV experiences</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">7,006</div>
+                    <div class="stat-label">Prevent Tons</div>
+                    <div class="stat-sublabel">Of CO₂ Emissions</div>
+                </div>
+            </div>
+        </section>
+
+        <section class="products-section" id="products">
+          <div class="container text-center d-flex justify-content-center align-items-center flex-column">
+              <h2 class="products-title">Our Products</h2>
+              <div class="w-100">
+                  <!-- Product Navigation Tabs -->
+                  <div class="d-flex justify-content-center align-items-center mb-3">
+                      <ul class="nav nav-underline" id="productTabs" role="tablist">
+                          <li class="nav-item" role="presentation">
+                              <button class="nav-link active" id="bus-tab" data-bs-toggle="tab" data-bs-target="#bus-tab-pane" type="button" role="tab" aria-controls="bus-tab-pane" aria-selected="true">Bus</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="trucks-tab" data-bs-toggle="tab" data-bs-target="#trucks-tab-pane" type="button" role="tab" aria-controls="trucks-tab-pane" aria-selected="false">Trucks</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="passenger-tab" data-bs-toggle="tab" data-bs-target="#passenger-tab-pane" type="button" role="tab" aria-controls="passenger-tab-pane" aria-selected="false">Passenger</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="transporter-tab" data-bs-toggle="tab" data-bs-target="#transporter-tab-pane" type="button" role="tab" aria-controls="transporter-tab-pane" aria-selected="false">Transporter</button>
+                          </li>
+                          <li class="nav-item" role="presentation">
+                              <button class="nav-link" id="forklift-tab" data-bs-toggle="tab" data-bs-target="#forklift-tab-pane" type="button" role="tab" aria-controls="forklift-tab-pane" aria-selected="false">Forklift</button>
+                          </li>
+                      </ul>
+                  </div>
+                  
+                  <!-- Tab Content -->
+                  <div class="tab-content" id="productTabContent">
+                    <!-- Bus Tab -->
+                    <div class="tab-pane fade show active" id="bus-tab-pane" role="tabpanel" aria-labelledby="bus-tab" tabindex="0">
+                        <div class="splide" id="busSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">01</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-1.png" class="d-block" alt="12 Meter EV Bus">
+                                            </div>
+                                            <h4>12 Meter EV Bus</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">02</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-2.png" class="d-block" alt="10 Meter EV Bus">
+                                            </div>
+                                            <h4>Tractor Head</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">03</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-3.png" class="d-block" alt="8 Meter EV Bus">
+                                            </div>
+                                            <h4>Light Duty Truck</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">04</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-4.png" class="d-block" alt="Widebody Mining Truck">
+                                            </div>
+                                            <h4>Widebody Mining Truck</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">05</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-2.png" class="d-block" alt="Tractor Head">
+                                            </div>
+                                            <h4>Tractor Head</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Trucks Tab -->
+                    <div class="tab-pane fade" id="trucks-tab-pane" role="tabpanel" aria-labelledby="trucks-tab" tabindex="0">
+                        <div class="splide" id="trucksSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">01</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-2.png" class="d-block" alt="Tractor Head">
+                                            </div>
+                                            <h4>Tractor Head</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">02</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-3.png" class="d-block" alt="Light Duty Truck">
+                                            </div>
+                                            <h4>Light Duty Truck</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">03</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-4.png" class="d-block" alt="Widebody Mining Truck">
+                                            </div>
+                                            <h4>Widebody Mining Truck</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Passenger Tab -->
+                    <div class="tab-pane fade" id="passenger-tab-pane" role="tabpanel" aria-labelledby="passenger-tab" tabindex="0">
+                        <div class="splide" id="passengerSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">01</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-4.png" class="d-block" alt="Passenger Vehicle">
+                                            </div>
+                                            <h4>Passenger Vehicle</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Transporter Tab -->
+                    <div class="tab-pane fade" id="transporter-tab-pane" role="tabpanel" aria-labelledby="transporter-tab" tabindex="0">
+                        <div class="splide" id="transporterSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">01</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-2.png" class="d-block" alt="Heavy Transporter">
+                                            </div>
+                                            <h4>Heavy Transporter</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Forklift Tab -->
+                    <div class="tab-pane fade" id="forklift-tab-pane" role="tabpanel" aria-labelledby="forklift-tab" tabindex="0">
+                        <div class="splide" id="forkliftSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="card">
+                                            <div class="d-flex justify-content-center align-items-center">
+                                                <p class="card-counter">01</p>
+                                            </div>
+                                            <div class="card-img-wrapper">
+                                                <img src="./images/trucks/truck-1.png" class="d-block" alt="Electric Forklift">
+                                            </div>
+                                            <h4>Electric Forklift</h4>
+                                            <button class="btn btn-primary card-hover-btn">
+                                                Read More
+                                                <span class="btn-circle-icon">
+                                                    <i data-feather="arrow-right"></i>
+                                                </span>
+                                            </button>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+              
+              <!-- All Products Button -->
+              <button type="button" class="btn btn-primary mt-3">
+                  All Products
+                  <span class="btn-circle-icon">
+                      <i data-feather="arrow-right"></i>
+                  </span>
+              </button>
+          </div>
+        </section>
+
+        <section class="partners-section container">
+            <h2 class="partners-title">Our Partners</h2>
+            <div class="splide" id="partnersSlider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="row g-2">
+                                <div class="partners-col grayscale col-4">
+                                    <img src="images/partners/trisakti.png" alt="Partner 1">
+                                </div>
+                                <div class="partners-col byd grayscale col-4">
+                                    <img src="images/partners/byd.png" alt="Partner 1">
+                                </div>
+                                <div class="partners-col col-4">
+                                    <img src="images/partners/equipmake.png" alt="Partner 1">
+                                </div>
+                                <div class="partners-col col-4">
+                                    <img src="images/partners/aeml.png" alt="Partner 1">
+                                </div>
+                                <div class="partners-col col-4">
+                                    <img src="images/partners/techbrand.svg" alt="Partner 1">
+                                </div>
+                                <div class="partners-col col-4">
+                                    <img src="images/partners/wolves.svg" alt="Partner 1">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="row g-2">
+                                <div class="partners-col grayscale col-4">
+                                    <img src="images/partners/trisakti.png" alt="Partner 1">
+                                </div>
+                                <div class="partners-col byd grayscale col-4">
+                                    <img src="images/partners/byd.png" alt="Partner 1">
+                                </div>
+                                <div class="partners-col col-4">
+                                    <img src="images/partners/equipmake.png" alt="Partner 1">
+                                </div>
+                                <div class="partners-col col-4">
+                                    <img src="images/partners/aeml.png" alt="Partner 1">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section container">
+            <h2 class="testimonials-title">Customer Testimonials</h2>
+            <div class="splide" id="testimonialsSlider">
+                <div class="splide__track">
+                    <ul class="splide__list">
+                        <li class="splide__slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/testimonials/testimonial-1.jpg" alt="">
+                                    <div class="testimonials-content">
+                                        <p>The bus is already equipped with a digital system. We can see the strength of the battery, the air pressure, and the bus equipped with 12 CCTV cameras. The bus is also equipped with conveniences for persons with disabilities.</p>
+                                        <div class="testimonials-info">
+                                            <h4>Aliridho Barakbah</h4>
+                                            <p>Director at Politeknik Elektronika Negeri Surabaya</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/testimonials/testimonial-2.jpg" alt="">
+                                    <div class="testimonials-content">
+                                        <p>The journey of BYD cooperation with Bakrie Autoparts started in 2018, where BYD and Bakrie Autoparts initiated a partnership and intensively approached several public transport bus services.</p>
+                                        <div class="testimonials-info">
+                                            <h4>Eagle Zhao</h4>
+                                            <p>Managing Director at BYD Indonesia & Malaysia</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="splide__slide">
+                            <div class="card">
+                                <div class="card-body">
+                                    <img src="images/testimonials/testimonial-1.jpg" alt="">
+                                    <div class="testimonials-content">
+                                        <p>The bus is already equipped with a digital system. We can see the strength of the battery, the air pressure, and the bus equipped with 12 CCTV cameras. The bus is also equipped with conveniences for persons with disabilities.</p>
+                                        <div class="testimonials-info">
+                                            <h4>Aliridho Barakbah</h4>
+                                            <p>Director at Politeknik Elektronika Negeri Surabaya</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="news-section container">
+            <h2 class="news-title">News Updates</h2>
+
+            <div class="news-content">
+                <div class="row">
+                    <div class="col-4 col-md-2 col-lg-2">
+                        <p>12 Dec 2024</p>
+                    </div>
+                    <div class="col-8 col-md-8 col-lg-8 news-detail">
+                        <p>Officially Operating: First CKD Electric Bus from VKTR and Karoseri Laksana for TransJakarta</p>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2">
+                        <img src="images/news/news-1.png" alt="news 1" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 col-md-2 col-lg-2">
+                        <p>9 Dec 2024</p>
+                    </div>
+                    <div class="col-8 col-md-8 col-lg-8 news-detail">
+                        <p>Reducing Carbon Footprint, VKTR and Gapura Angkasa Launch Electric Bus at Soetta Airport</p>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2">
+                        <img src="images/news/news-2.jpg" alt="news 2" />
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-4 col-md-2 col-lg-2">
+                        <p>4 Dec 2024</p>
+                    </div>
+                    <div class="col-8 col-md-8 col-lg-8 news-detail">
+                        <p>PT VKTR Teknologi Mobilitas Tbk Holds Extraordinary General Meeting of Shareholders (GMS) 2023</p>
+                    </div>
+                    <div class="col-12 col-md-2 col-lg-2">
+                        <img src="images/news/news-3.jpg" alt="news 1" />
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn btn-primary card-hover-btn news-button">
+                All News
+                <span class="btn-circle-icon">
+                    <i data-feather="arrow-right"></i>
+                </span>
+            </button>
+        </section>
+
+        <section class="relations-section container">
+            <h2 class="relations-title">Investor Relations</h2>
+
+            <div class="relations-status">
+              <div class="current">
+                <p class="current-title">VKTR TEKNOLOGI MOBILITAS TBK</p>
+                <div class="current-price">
+                    <h2>IDR950</h2>
+                    <div class="change-info">
+                        <p>
+                            <i class="fas fa-caret-up"></i>
+                            45
+                        </p>
+                        <p>
+                            <i class="fas fa-caret-up"></i>
+                            4.97%
+                        </p>
+                    </div>
+                </div>
+                <p class="current-updated-at">Quotes Delayed 10 Minutes Updated:  24 April 2025  14:18</p>
+                <a href="#">View All</a>
+              </div>
+              <ul class="history">
+                <li>
+                    <p>Last</p>
+                    <h3>2,130</h3>
+                </li>
+                <li>
+                    <p>Volume</p>
+                    <h3>675</h3>
+                </li>
+                <li>
+                    <p>Day's Range</p>
+                    <h3>570</h3>
+                </li>
+                <li>
+                    <p>520-Week Range</p>
+                    <h3>620</h3>
+                </li>
+              </ul>
+            </div>
+
+            <div class="relations-report">
+                <div class="relations-report-content">
+                    <img src="images/report.png" alt="relations report">
+                    <div class="relations-report-info">
+                        <div class="relations-wrapper">
+                            <div>
+                                <h2>Annual Report</h2>
+                                <p>VKTR Annual Report 2023</p>
+                                <div class="custom-pdf-download">
+                                    <img src="images/pdf_icon.svg" alt="pdf icon">
+                                    <p>Download</p>
+                                </div>
+                            </div>
+                            <a href="#">View All</a>
+                        </div>   
+                    </div>
+                </div>
+                <div class="relations-report-updates">
+                    <div class="relations-wrapper">
+                        <div>
+                            <h2>Corporate Updates</h2>
+                            <ul class="relations-report-updates-list">
+                                <li>
+                                    <p>9M23 Results and Business Update</p>
+                                    <div class="custom-pdf-download">
+                                        <img src="images/pdf_icon.svg" alt="pdf icon">
+                                        <p>Download</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>2Q24 VKTR Earnings Call</p>
+                                    <div class="custom-pdf-download">
+                                        <img src="images/pdf_icon.svg" alt="pdf icon">
+                                        <p>Download</p>
+                                    </div>
+                                </li>
+                                <li>
+                                    <p>9M23 Results and Business Update</p>
+                                    <div class="custom-pdf-download">
+                                        <img src="images/pdf_icon.svg" alt="pdf icon">
+                                        <p>Download</p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="#">View All</a>
+                    </div>
+                </div>
+            </div>
+
+              <button class="btn btn-primary card-hover-btn relations-button">
+                Investor Relations 
+                <span class="btn-circle-icon">
+                    <i data-feather="arrow-right"></i>
+                </span>
+            </button>
+        </section>
+
+    </main>
+
+    <footer>
+        
+        <section class="footer-hero">
+            <div class="container-fluid">
+                <div class="row justify-content-center">
+                    <div class="col col-md-8 col-lg-4">
+                        <h2 class="footer-title">VKTR Aims to Be a Leading EV Technology Company</h2>
+                    </div>									
+                </div>
+            </div>
+        </section>        
+        
+        <section class="footer-bottom">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-lg-4 order-1 order-md-1">
+                        <div class="footer-info">
+                            <h5>Head Office</h5>
+                            <p>JPT VKTR Teknologi Mobilitas Tbk<br>Bakrie Tower 35 Fl., Rasuna Epicentrum<br>Jl. H. R Rasuna Said, Jakarta 12940, Indonesia</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-4 order-3 order-md-2 d-flex justify-content-center">
+                        <img src="images/logo_vktr_bottom.png" alt="VKTR Logo" class="align-self-start">
+                    </div>
+                    <div class="col-12 col-lg-4 order-2 order-md-3 d-flex justify-content-start justify-content-md-end ">
+                        <div class="footer-info">
+                            <h5>Contact</h5>
+                            <div class="contact-item">
+                                <img src="images/envelope 1.svg" alt="Email" width="16" height="16">
+                                <span>corsec@vktr.id</span>
+                            </div>
+                            <div class="footer-social pt-4">
+                                <a href="#" class="social-link">
+                                    <img src="images/facebook (1).svg" alt="Facebook" width="31" height="31">
+                                </a>
+                                <a href="#" class="social-link">
+                                    <img src="images/instagram (1).svg" alt="Instagram" width="31" height="31">
+                                </a>
+                                <a href="#" class="social-link">
+                                    <img src="images/linkedin (1).svg" alt="LinkedIn" width="31" height="31">
+                                </a>
+                            </div>	
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 mt-5 mt-md-0">
+                        <div class="indoPowered">
+                            <span>INDONESIAN</span>
+                            <div class="divider-line"></div>
+                            <span>POWERED</span>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="row mt-4 border-start-color1">
+                    <div class="col-12 text-center">                        
+                        <!-- <div class="footer-social pt-4">
+                            <a href="#" class="social-link">
+                                <img src="images/facebook (1).svg" alt="Facebook" width="31" height="31">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="images/instagram (1).svg" alt="Instagram" width="31" height="31">
+                            </a>
+                            <a href="#" class="social-link">
+                                <img src="images/linkedin (1).svg" alt="LinkedIn" width="31" height="31">
+                            </a>
+                        </div>													 -->
+                        <div class="footer-copyright pt-4">
+                          <p> 2025 VKTR TEKNOLOGI MOBILITAS TBK. ALL RIGHTS RESERVED.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <!-- Splide Slider JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+    <!-- GSAP Animation Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <!-- Custom JS -->
+    <script src="js/mainjs.js"></script>
+    <script src="js/front-page.js"></script>
+
+    <script>
+      feather.replace();
+    </script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+/* Vision & Mission Section Styles */
+.Vision-wrap {
+    padding: 80px 0;
+    background-color: #ffffff;
+}
+
+/* Vision Title and Subtitle */
+.vision-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+.vision-subtitle {
+    font-size: 1.1rem;
+    color: #666666;
+    line-height: 1.6;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Vision Image */
+.vision-image {
+    text-align: center;
+    margin: 60px 0;
+}
+
+.vision-image img {
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
+
+/* Values Title */
+.values-title {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #333333;
+    margin-bottom: 50px;
+}
+
+/* Values Grid */
+.values-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    margin-top: 40px;
+}
+
+/* Individual Value Item */
+.value-item {
+    text-align: center;
+    padding: 30px 20px;
+    background: #ffffff;
+    border-radius: 15px;
+    transition: all 0.3s ease;
+    border: 1px solid #f0f0f0;
+}
+
+.value-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+/* Value Icon */
+.value-icon {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background: linear-gradient(135deg, #20B2AA, #48D1CC);
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.value-icon img {
+    max-width: 40px;
+    max-height: 40px;
+    filter: brightness(0) invert(1);
+}
+
+/* Value Name */
+.value-name {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #333333;
+    margin-bottom: 15px;
+}
+
+/* Value Description */
+.value-description {
+    font-size: 0.95rem;
+    color: #666666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 992px) {
+    .values-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+    
+    .vision-title {
+        font-size: 2.2rem;
+    }
+    
+    .values-title {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .Vision-wrap {
+        padding: 60px 0;
+    }
+    
+    .values-grid {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+    
+    .vision-title {
+        font-size: 2rem;
+    }
+    
+    .vision-subtitle {
+        font-size: 1rem;
+    }
+    
+    .values-title {
+        font-size: 1.6rem;
+        margin-bottom: 30px;
+    }
+    
+    .value-item {
+        padding: 25px 15px;
+    }
+    
+    .value-icon {
+        width: 70px;
+        height: 70px;
+        padding: 15px;
+    }
+    
+    .value-icon img {
+        max-width: 35px;
+        max-height: 35px;
+    }
+    
+    .value-name {
+        font-size: 1.2rem;
+    }
+    
+    .value-description {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .vision-title {
+        font-size: 1.8rem;
+    }
+    
+    .vision-subtitle {
+        font-size: 0.95rem;
+    }
+    
+    .values-title {
+        font-size: 1.5rem;
+    }
+    
+    .value-item {
+        padding: 20px 10px;
+    }
+    
+    .value-icon {
+        width: 60px;
+        height: 60px;
+        padding: 12px;
+    }
+    
+    .value-icon img {
+        max-width: 30px;
+        max-height: 30px;
+    }
+}

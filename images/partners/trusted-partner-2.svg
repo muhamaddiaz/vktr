@@ -1,0 +1,7 @@
+<svg width="120" height="80" viewBox="0 0 120 80" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="80" fill="#ffffff" stroke="#e0e0e0" stroke-width="1"/>
+  <polygon points="60,20 70,30 60,40 50,30" fill="#9b59b6"/>
+  <circle cx="60" cy="30" r="8" fill="none" stroke="#9b59b6" stroke-width="2"/>
+  <text x="60" y="55" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#9b59b6">TRUSTED</text>
+  <text x="60" y="65" text-anchor="middle" font-family="Arial, sans-serif" font-size="8" fill="#666">PARTNER 2</text>
+</svg>

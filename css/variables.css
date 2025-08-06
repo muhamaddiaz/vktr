@@ -1,0 +1,20 @@
+:root {
+    /* Colors */
+    --color-primary: #27D0C8;
+    --color-primary-hover: #4ab0a1;
+    --color-border: #e0e0e0;
+    --color-table-bg: #000;
+    --color-white: #fff;
+    --color-black: #000;
+    --color-button-primary: #deffc5;
+    --color-button-primary-hover: #b2e59b;
+    --color-button-accent: #b8ff73;
+    
+    /* Typography */
+    --font-family-main: 'Inter', sans-serif;
+    --font-family-title: 'Prompt', sans-serif;
+    
+    /* Transitions */
+    --transition-standard: 0.3s ease-in-out;
+    --transition-bezier: 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
