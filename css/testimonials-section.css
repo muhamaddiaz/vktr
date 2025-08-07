@@ -3,6 +3,13 @@
   margin: 6rem auto;
 }
 
+.testimonials-lines {
+  position: absolute;
+  top: -60%;
+  max-width: 100%;
+  z-index: -1;
+}
+
 .testimonials-vector {
   position: absolute;
   top: -100px;
@@ -14,7 +21,7 @@
 .testimonials-title {
   font-family: var(--font-family-title);
   font-size: 55px;
-  font-weight: 200;
+  font-weight: 300;
   color: var(--color-black);
   margin-bottom: 16px;
   letter-spacing: -3%;

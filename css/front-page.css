@@ -115,7 +115,7 @@
     width: 80px;
     height: 80px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0);
     border: none;
     display: flex;
     align-items: center;
@@ -127,7 +127,7 @@
 }
 
 .play-button:hover {
-    background: white;
+    /* background: white; */
     transform: scale(1.1);
     box-shadow: 0 6px 25px rgba(0, 0, 0, 0.4);
 }
@@ -844,14 +844,20 @@
 
 .banner-splide-container > h1 {
   position: absolute;
+  width: 100%;
 }
 
 .banner-splide-title {
+  display: flex;
+  flex-direction: column;
   font-family: var(--font-family-title);
   font-size: 65px;
   font-weight: 300;
   margin: 90px 0 0;
-  width: 35%;
+}
+
+.banner-splide-title span {
+  display: block;
 }
 
 .banner-splide-container > .play-button {
@@ -879,6 +885,12 @@
   background-image: url('../images/herrobaner_3.jpg');
 }
 
+@media (max-width: 1200px) {
+  .banner-splide-image {
+    height: 90vh;
+  }
+}
+
 @media (max-width: 992px) {
   .banner-splide-title {
     font-size: 60px;
@@ -887,6 +899,10 @@
 
   .statistics {
     width: 80%;
+  }
+
+  .banner-splide-image {
+    height: 80vh;
   }
 }
 

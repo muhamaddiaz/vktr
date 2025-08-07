@@ -135,8 +135,8 @@ $(document).ready(function () {
             ease: 'power2.out',
             scrollTrigger: {
                 trigger: sectionSelector,
-                start: 'top 80%', // when section top enters 80% of viewport height
-                end: 'top 30%',   // when section top reaches 30% of viewport
+                start: 'top 90%', 
+                end: 'top 30%',
                 toggleActions: 'play none none reverse'
             }
         });
