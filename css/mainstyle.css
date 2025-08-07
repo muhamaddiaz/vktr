@@ -19,6 +19,7 @@ body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
+    overflow-x: hidden;
 }
 .h1, h1 {
     font-weight: 400;
@@ -795,9 +796,10 @@ main {
 }
 
 .footer-title {
-    font-size: 2.5rem;
+    font-family: var(--font-family-title);
+    font-size: 2.6rem;
     font-weight: 300;
-    line-height: 1.2;
+    line-height: 56px;
 }
 
 .footer-divider {
@@ -844,15 +846,15 @@ main {
 
 .footer-info h5 {
     font-family: var(--font-family-title);
-    font-size: 1.25rem;
-    font-weight: 600;
+    font-size: 0.95rem;
+    font-weight: 700;
     margin-bottom: 1rem;
 }
 
 .footer-info p {
     font-family: var(--font-family-title);
-    font-size: 0.95rem;
-    line-height: 1.6;
+    font-size: 0.9rem;
+    line-height: 24px;
     margin-bottom: 1.5rem;
 }
 
@@ -961,13 +963,14 @@ Our Business - Products
     display: flex !important;
     align-items: center;
     justify-content: center;
-    background-color: var(--color-button-primary);
+    background-color: #DEFFC5;
     color: var(--color-black);
     border: none;
-    padding: 12px 24px;
+    padding: 8px 24px;
     border-radius: 999px;
-    font-size: 14px;
+    font-size: 12px;
     white-space: nowrap;
+    font-family: var(--font-family-title);
 }
 
 .btn-primary:hover {
@@ -983,12 +986,12 @@ Our Business - Products
 
 .btn-circle-icon {
     display: inline-flex;
-    width: 25px;
-    height: 25px;
+    width: 33px;
+    height: 33px;
     border-radius: 50%;
-    background-color: var(--color-button-accent);
+    background-color: #C7F895;
     color: var(--color-black);
     align-items: center;
     justify-content: center;
-    margin-left: 6px;
+    margin-left: 7px;
 }

@@ -142,7 +142,7 @@ $(document).ready(function () {
         });
     });
 
-    function animatePrice(priceEl, trigger) {
+    function animatePrice(priceEl, { trigger, currency }) {
         if (priceEl) {
             const raw = priceEl.textContent.replace(/[^0-9]/g, '');
             const targetVal = parseInt(raw, 10) || 0;
@@ -158,7 +158,11 @@ $(document).ready(function () {
                     once: true
                 },
                 onUpdate: () => {
-                    priceEl.textContent = 'IDR' + Math.floor(counterObj.val).toLocaleString();
+                    if (currency) {
+                        priceEl.textContent = currency + Math.floor(counterObj.val).toLocaleString();
+                    } else {
+                        priceEl.textContent = Math.floor(counterObj.val).toLocaleString();
+                    }
                 }
             });
         }
@@ -166,14 +170,14 @@ $(document).ready(function () {
 
     const statistics = document.querySelectorAll('.stat-number');
     statistics.forEach((stat) => {
-        animatePrice(stat, '.leading-section');
+        animatePrice(stat, { trigger: '.leading-section' });
     });
 
     const priceEl = document.querySelector('.current-price h2');
-    animatePrice(priceEl, '.relations-section');
+    animatePrice(priceEl, { trigger: '.relations-section', currency: 'IDR' });
 
     const priceEl2 = document.querySelectorAll('.history h3');
     priceEl2.forEach((priceEl) => {
-        animatePrice(priceEl, '.relations-section');
+        animatePrice(priceEl, { trigger: '.relations-section' });
     });
 });

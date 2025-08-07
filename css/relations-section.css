@@ -145,10 +145,10 @@
   border-left: 1px solid #D9D9D9;
 }
 
-.relations-report .relations-report-info > div > p {
+.relations-report .relations-report-info .relations-wrapper > div > p {
   font-family: var(--font-family-main);
   font-size: 20px;
-  font-weight: 200;
+  font-weight: 400;
   color: var(--color-black);
   width: 70%;
 }
@@ -170,8 +170,16 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding: 0.5rem 0;
+  padding: 1rem 0;
   border-bottom: 1px solid #D9D9D9;
+}
+
+.relations-report .relations-report-updates-list li p {
+  font-family: var(--font-family-main);
+  font-size: 15px;
+  font-weight: 400;
+  color: black;
+  margin: 0;
 }
 
 .relations-report .relations-wrapper {
@@ -202,6 +210,7 @@
 
 .custom-pdf-download p {
   margin: 0;
+  font-size: 15px;
 }
 
 @media (max-width: 992px) {

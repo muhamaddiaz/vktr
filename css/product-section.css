@@ -1,9 +1,18 @@
 .products-section {
     /* background-image: url("../assets/Assets for Q2/img-1.png"); */
+    position: relative;
     background-repeat: no-repeat;
     background-position: right bottom;
     background-size: auto;
     margin: 4rem 0rem;
+}
+
+.products-vector {
+    position: absolute;
+    bottom: -93px;
+    right: 0;
+    width: 187px;
+    z-index: -1;
 }
 
 .products-title {
@@ -17,10 +26,11 @@
 
 /* Tab Navigation */
 .nav-underline .nav-link {
+    font-family: var(--font-family-title);
     border: none;
     border-top: 2px solid transparent;
     border-radius: 0;
-    color: #6c757d;
+    color: #222222;
     transition: border-top-color var(--transition-standard), color var(--transition-standard);
     font-size: 26px;
     font-weight: 300;
@@ -38,6 +48,7 @@
 
 .nav-underline {
     margin-bottom: 20px;
+    gap: 4rem;
 }
 
 /* Tab Content Animation */
@@ -74,17 +85,21 @@
 }
 
 .products-section .card h4 {
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     margin: 24px 0 60px;
     transition: transform var(--transition-bezier);
+    font-family: var(--font-family-main);
 }
 
 .products-section .card-counter {
     width: 30px;
-    border-bottom: 1px solid var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
     margin: 24px 0 48px;
     transition: width var(--transition-bezier);
+    font-family: var(--font-family-title);
+    font-weight: 200;
+    font-size: 15px;
 }
 
 .card-img-wrapper {
@@ -101,6 +116,10 @@
     object-fit: contain;
     padding-left: 32px;
     transition: transform var(--transition-bezier);
+}
+
+.splide__pagination.splide__pagination-products {
+    margin-top: 6rem;
 }
 
 /* Card Hover Effects */
@@ -145,6 +164,10 @@
 
     .products-section .nav-underline .nav-link {
         font-size: 18px;
+    }
+
+    .products-section .nav-underline {
+        gap: 1rem;
     }
   }
   

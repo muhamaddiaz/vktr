@@ -114,7 +114,7 @@ $(document).ready(function() {
         pagination: true,
         arrows: false,
         classes: {
-            pagination: 'splide__pagination',
+            pagination: 'splide__pagination splide__pagination-products',
             page: 'splide__pagination__page',
         },
         breakpoints: {
@@ -127,9 +127,7 @@ $(document).ready(function() {
         'headerSlider',
         'busSlider',
         'trucksSlider',
-        'passengerSlider',
-        'transporterSlider',
-        'forkliftSlider',
+        'specialVehicleSlider',
         'partnersSlider',
         'testimonialsSlider'
     ];
