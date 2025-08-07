@@ -12,9 +12,12 @@
   text-align: center;
 }
 
-.news-content {
-  padding: 2rem 3rem;
-  margin: 2rem 0;
+.news-content .news-item {
+  border-bottom: 1px solid #EAEAEA;
+}
+
+.news-content .news-item:hover {
+  border-bottom: 2px solid #5CC7C1;
 }
 
 .news-content .row img {
@@ -26,13 +29,11 @@
   display: flex;
   align-items: center;
   padding: 1rem 4rem;
-  border-bottom: 1px solid #EAEAEA;
 }
 
 .news-content .row:hover {
   font-weight: 700;
   cursor: pointer;
-  border-bottom: 2px solid #5CC7C1;
 }
 
 .news-content .row:hover p {
@@ -84,7 +85,7 @@
 }
 
 .news-button {
-  margin: 0 auto;
+  margin: 3rem auto;
 }
 
 @media (max-width: 992px) {
