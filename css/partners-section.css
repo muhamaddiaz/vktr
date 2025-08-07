@@ -26,13 +26,29 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0;
+  position: relative;
+}
+
+.partners-col:not(:nth-child(3n))::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: -1px; 
+  transform: translateY(-50%);
+  width: 1px;
+  height: 100%; 
+  background-color: #B6FF6B; 
+}
+
+.partners-col img {
   filter: grayscale(100%);
   transition: filter var(--transition-standard);
 }
 
-.partners-section .partners-col:hover {
-  cursor: pointer;
+.partners-col:hover img {
   filter: grayscale(0%);
+  cursor: pointer;
 }
 
 .partners-section .grayscale img {

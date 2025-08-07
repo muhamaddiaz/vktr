@@ -5,7 +5,10 @@
 
 .testimonials-lines {
   position: absolute;
-  top: -60%;
+  top: -80%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100vw;
   max-width: 100%;
   z-index: -1;
 }
@@ -16,6 +19,17 @@
   left: 0;
   width: 187px;
   z-index: -1;
+}
+
+.testimonials-lines,
+.testimonials-vector {
+    pointer-events: none;  
+    user-select: none;     
+    -webkit-user-drag: none; 
+    -khtml-user-drag: none;  
+    -moz-user-drag: none;    
+    -o-user-drag: none;      
+    user-drag: none;         
 }
 
 .testimonials-title {
