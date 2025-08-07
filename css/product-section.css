@@ -169,6 +169,10 @@
     .products-section .nav-underline {
         gap: 1rem;
     }
+
+    .splide__pagination.splide__pagination-products {
+        margin-top: 4rem;
+    }
   }
   
 @media (max-width: 576px) {
@@ -182,5 +186,9 @@
 
     .products-section .nav-underline .nav-link {
         font-size: 18px;
+    }
+
+    .splide__pagination.splide__pagination-products {
+        margin-top: 2rem;
     }
 }

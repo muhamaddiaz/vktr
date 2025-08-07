@@ -191,6 +191,10 @@
   padding: 2rem 4rem;
 }
 
+.relations-report .relations-report-info-content {
+  margin-bottom: 2rem;
+}
+
 .custom-pdf-download {
   display: inline-flex;
   align-items: center;
@@ -251,8 +255,13 @@
       font-size: 32px;
   }
 
+  .relations-report .relations-report-content {
+    flex-direction: column;
+    padding: 0;
+  }
+
   .relations-report .relations-report-content img {
-    width: 150px;
+    width: 100%;
   }
 
   .relations-status .history {

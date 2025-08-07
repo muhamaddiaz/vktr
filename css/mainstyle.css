@@ -15,11 +15,14 @@ tiffany blue : #5CC7C1
 @import url('news-section.css');
 @import url('relations-section.css');
 
+html {
+    overflow-x: hidden;
+}
+
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
     padding: 0;
-    overflow-x: hidden;
 }
 .h1, h1 {
     font-weight: 400;
