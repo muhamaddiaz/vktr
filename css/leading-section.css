@@ -80,11 +80,23 @@
   }
 
   .leading-section .heading h2, .leading-section .heading h3 {
-    font-size: 35px;
-    line-height: 34px;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0;
   }
 
   .leading-section > .leading-truck-container > .leading-truck-img {
     width: 85%;
+  }
+
+  .leading-section .leading-lines {
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .leading-vector {
+    display: none;
   }
 }

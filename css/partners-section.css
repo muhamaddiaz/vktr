@@ -71,8 +71,9 @@
 
 @media (max-width: 576px) {
   .partners-title {
-      font-size: 32px;
-  }
+    font-size: 20px;
+    font-weight: 500;
+}
 
   .partners-section {
     margin: 4rem 0;

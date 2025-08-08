@@ -72,7 +72,7 @@
 }
 
 .testimonials-info h4 {
-  font-family: var(--font-family-title);
+  font-family: var(--font-family-main);
   font-size: 15px;
   font-weight: 700;
   color: var(--color-primary);
@@ -101,7 +101,7 @@
 
   .testimonials-section .card-body img {
     margin-right: 0;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
   }
 }
 
@@ -111,10 +111,19 @@
   }
 
   .testimonials-title {
-      font-size: 32px;
+      font-size: 20px;
+      font-weight: 500;
   }
 
   .testimonials-section .card {
     margin: 2rem 1rem;
+  }
+
+  .testimonials-vector {
+    display: none;
+  }
+
+  .testimonials-content > p {
+    margin-bottom: 1.5rem;
   }
 }

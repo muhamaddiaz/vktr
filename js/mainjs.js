@@ -86,11 +86,12 @@ $(document).ready(function() {
     let lastScrollTop = 0;
     let isHeaderSticky = false;
     const header = $('header');
-    const headerHeight = header.outerHeight();
+    const headerHeight = 80;
+
     
     $(window).on('scroll', function() {
         const scrollTop = $(this).scrollTop();
-        
+
         // Show sticky header when scrolling down after passing header height
         if (scrollTop > headerHeight && scrollTop > lastScrollTop && !isHeaderSticky) {
             // Scrolling down
@@ -105,6 +106,22 @@ $(document).ready(function() {
         }
         
         lastScrollTop = scrollTop;
+    });
+
+    /* --------------------------------------------------
+       Navbar scroll effect: make background transparent
+       when at top, add .scrolled class after the user
+       scrolls past the navbar height
+    -------------------------------------------------- */
+    const $navbar = $('.navbar');
+    const NAVBAR_HEIGHT = $navbar.outerHeight();
+
+    $(window).on('scroll', function () {
+        if ($(this).scrollTop() > NAVBAR_HEIGHT) {
+            $navbar.addClass('scrolled');
+        } else {
+            $navbar.removeClass('scrolled');
+        }
     });
 
     // Splide trucks section

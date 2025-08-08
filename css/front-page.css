@@ -1,7 +1,7 @@
 /* Home Banner Slider Styles */
 .home-banner {
     /* Adjust 80px based on actual header height */
-    /* height: calc(100vh - 80px); */
+    margin-top: -80px;
     position: relative;
     overflow: hidden;
 }
@@ -792,6 +792,7 @@
     }
     
     .stock-info {
+      font-family: var(--font-family-title);
         gap: 15px;
         font-size: 16px;
         flex-wrap: wrap;
@@ -854,7 +855,7 @@
   font-size: 65px;
   font-weight: 300;
   margin: 0 2rem;
-  margin-top: 5%;
+  margin-top: calc(5% + 80px);
 }
 
 .banner-splide-title span {
@@ -909,11 +910,18 @@
 }
 
 @media (max-width: 576px) {
+  .home-banner {
+    margin-top: 0;
+  }
+
+  .home-irstocks {
+    padding: 0;
+  }
+
   .banner-splide-title {
     font-size: 35px;
     width: 100%;
     margin-top: 15%;
-    /* margin: 65px 0 0; */
   }
 
   .statistics {
@@ -923,7 +931,29 @@
   }
 
   .banner-splide-image {
-    height: 60vh;
+    height: 70vh;
+  }
+
+  .stock-info, .stock-symbol {
+    font-weight: 400;
+    font-size: 11px;
+  }
+
+  .stat-number {
+    font-size: 22px;
+    font-weight: 400;
+  }
+
+  .stat-label {
+    font-size: 17px;
+    font-weight: 400;
+  }
+
+  .stat-sublabel {
+    font-family: var(--font-family-title);
+    font-size: 12px;
+    font-weight: 400;
+    color: #CCC;
   }
 }
   

@@ -273,6 +273,20 @@
 @media (max-width: 576px) {
   .about-us {
     margin: 2rem 0;
+    padding: 1rem 2rem;
+  }
+
+  .about-us-title-wrapper h2 {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24.7px;
+  }
+
+  .about-us-description-wrapper p {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 20.7px;
+    margin-bottom: 1.5rem;
   }
 
   .banner-splide-title {

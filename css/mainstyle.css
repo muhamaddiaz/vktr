@@ -56,6 +56,10 @@ header.sticky {
     animation: slideDown 0.3s ease-in-out forwards;
 }
 
+header.sticky .navbar {
+    background-color: white;
+}
+
 @keyframes slideDown {
     from {
         transform: translateY(-100%);
@@ -67,12 +71,12 @@ header.sticky {
 
 /* Body padding when header is sticky */
 body.header-sticky {
-    padding-top: 120px; /* Adjust based on header height */
+    padding-top: 80px; 
 }
 
 .navbar {
+    background-color: transparent;
     padding: 0;
-    /*box-shadow: 0 2px 4px rgba(0,0,0,0.1);*/
 }
 
 .navbar-brand img {

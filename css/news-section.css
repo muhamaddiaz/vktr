@@ -108,11 +108,40 @@
 
 @media (max-width: 576px) {
   .news-title {
-      font-size: 32px;
+      font-size: 20px;
+      font-weight: 500;
   }
 
   .news-content .row img {
     width: 100%;
     border-radius: 10px;
+  }
+
+  .news-content {
+    padding: 0;
+  }
+
+  .news-content .news-item {
+    padding: 1rem;
+  }
+
+  .news-content .row {
+    padding: 0;
+  }
+
+  .news-content .container {
+    padding: 0;
+  }
+
+  .news-content .news-date {
+    font-size: 12px;
+    font-weight: 300;
+    color: #222;
+  }
+
+  .news-content .news-detail p {
+    font-size: 13px;
+    font-weight: 500;
+    color: #222;
   }
 }
