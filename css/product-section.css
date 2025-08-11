@@ -162,11 +162,11 @@
       font-size: 40px;
     }
 
-    .products-section .nav-underline .nav-link {
+    .nav-underline .nav-link {
         font-size: 18px;
     }
 
-    .products-section .nav-underline {
+    .nav-underline {
         gap: 1rem;
     }
 
@@ -185,7 +185,21 @@
         font-weight: 500;
     }
 
-    .products-section .nav-underline .nav-link {
+    .nav.nav-underline {
+        display: flex;
+        width: 100%;
+    }
+
+    .nav.nav-underline li {
+        display: flex;
+        flex: 1;
+    }
+
+    .nav.nav-underline .nav-link {
+        flex: 1;
+    }
+
+    .nav-underline .nav-link {
         font-size: 15px;
     }
 

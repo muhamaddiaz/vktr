@@ -100,4 +100,12 @@
     .products-title {
         font-size: 26px;
     }
+
+    .splide__pagination {
+        transform: translateY(-2rem)
+    }
+
+    .splide__pagination.splide__pagination-header {
+        padding-bottom: 0;
+    }
 }

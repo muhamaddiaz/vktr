@@ -931,7 +931,7 @@
   }
 
   .banner-splide-image {
-    height: 70vh;
+    height: 60vh;
   }
 
   .stock-info, .stock-symbol {
@@ -954,6 +954,18 @@
     font-size: 12px;
     font-weight: 400;
     color: #CCC;
+  }
+
+  .banner-splide-image.banner-splide-image-1 {
+    background-image: url('../images/banners/mobile-1.png');
+  }
+
+  .banner-splide-image.banner-splide-image-2 {
+    background-image: url('../images/banners/mobile-3.png');
+  }
+
+  .banner-splide-image.banner-splide-image-3 {
+    background-image: url('../images/banners/mobile-2.png');
   }
 }
   
