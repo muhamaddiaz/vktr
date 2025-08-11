@@ -30,7 +30,7 @@
   position: relative;
 }
 
-.partners-col:not(:nth-child(3n))::after {
+/* .partners-col:not(:nth-child(3n))::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -39,7 +39,7 @@
   width: 1px;
   height: 100%; 
   background-color: #B6FF6B; 
-}
+} */
 
 .partners-col img {
   filter: grayscale(100%);

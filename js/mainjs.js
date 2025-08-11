@@ -146,9 +146,21 @@ $(document).ready(function() {
         'trucksSlider',
         'specialVehicleSlider',
         'partnersSlider',
+        'customersSlider',
+        'communitiesSlider',
         'testimonialsSlider'
     ];
     const sliders = {};
+
+    const networkSliderOptions = {
+        perPage: 1,
+        pagination: true,
+        classes: {
+            pagination: 'splide__pagination',
+            page: 'splide__pagination__page',
+        },
+        arrows: false,
+    };
 
     $.each(sliderIds, function(index, id) {
         const $sliderEl = $('#' + id);
@@ -179,15 +191,9 @@ $(document).ready(function() {
                 };
                 break;
             case 'partnersSlider':
-                sliderOptions = {
-                    perPage: 1,
-                    pagination: true,
-                    classes: {
-                        pagination: 'splide__pagination',
-                        page: 'splide__pagination__page',
-                    },
-                    arrows: false,
-                };
+            case 'customersSlider':
+            case 'communitiesSlider':
+                sliderOptions = networkSliderOptions;
                 break;
             case 'testimonialsSlider':
                 sliderOptions = {

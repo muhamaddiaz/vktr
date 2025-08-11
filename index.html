@@ -596,68 +596,141 @@
         <section class="partners-section">
             <div class="container">
                 <h2 class="partners-title">Networking</h2>
-                <div class="splide" id="partnersSlider">
-                    <div class="splide__track">
-                        <ul class="splide__list">
-                            <li class="splide__slide">
-                                <div class="row g-2">
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/trisakti-kan.png" alt="Partner 1">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col itb col-4">
-                                        <a href="#">
-                                            <img src="images/partners/itb.png" alt="Partner 1">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/ugm.png" alt="Partner 2">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/aeml.png" alt="Partner 3">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/prisma.png" alt="Partner 4">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/laksana.png" alt="Partner 5">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="splide__slide">
-                                <div class="row g-2">
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/trisakti-kan.png" alt="Partner 1">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col byd col-4">
-                                        <a href="#">
-                                            <img src="images/partners/byd.png" alt="Partner 1">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/equipmake.png" alt="Partner 1">
-                                        </a>
-                                    </div>
-                                    <div class="partners-col col-4">
-                                        <a href="#">
-                                            <img src="images/partners/aeml.png" alt="Partner 1">
-                                        </a>
-                                    </div>
-                                </div>
-                            </li>
-                        </ul>
+                <div class="d-flex justify-content-center align-items-center mb-3">
+                    <ul class="nav nav-underline" id="networkingTabs" role="tablist">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="partners-tab" data-bs-toggle="tab" data-bs-target="#partners-tab-pane" type="button" role="tab" aria-controls="partners-tab-pane" aria-selected="true">Our Partners</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="customers-tab" data-bs-toggle="tab" data-bs-target="#customers-tab-pane" type="button" role="tab" aria-controls="customers-tab-pane" aria-selected="false">Our Customers</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="communities-tab" data-bs-toggle="tab" data-bs-target="#communities-tab-pane" type="button" role="tab" aria-controls="communities-tab-pane" aria-selected="false">Communities</button>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="tab-content" id="networkingTabContent">
+                    <!-- Partners Tab -->
+                    <div class="tab-pane fade show active" id="partners-tab-pane" role="tabpanel" aria-labelledby="partners-tab" tabindex="0">
+                        <div class="splide" id="partnersSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="row g-2 justify-content-center">
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/partners/laksana.png" alt="Partner 1">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/partners/trisakti-kan.png" alt="Partner 2">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>                        
+                    </div>
+                
+                    <!-- Customers Tab -->
+                    <div class="tab-pane fade" id="customers-tab-pane" role="tabpanel" aria-labelledby="customers-tab" tabindex="0">
+                        <div class="splide" id="customersSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="row g-2 justify-content-center">
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/transjakarta.png" alt="Customer 1">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/adaro.png" alt="Customer 2">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/pupr.png" alt="Customer 3">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/april.png" alt="Customer 4">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/mayasari.png" alt="Customer 5">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/braja.png" alt="Customer 6">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/kmk.png" alt="Customer 7">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/bakrie-autoparts.png" alt="Customer 8">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/abipraya.png" alt="Customer 9">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/gapura.png" alt="Customer 10">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/customers/sinar-jaya.png" alt="Customer 11">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                
+                    <!-- Communities Tab -->
+                    <div class="tab-pane fade" id="communities-tab-pane" role="tabpanel" aria-labelledby="communities-tab" tabindex="0">
+                        <div class="splide" id="communitiesSlider">
+                            <div class="splide__track">
+                                <ul class="splide__list">
+                                    <li class="splide__slide">
+                                        <div class="row g-2 justify-content-center">
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/communities/kadin.png" alt="Community 1">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/communities/aeml.png" alt="Community 2">
+                                                </a>
+                                            </div>
+                                            <div class="partners-col col-3">
+                                                <a href="#">
+                                                    <img src="images/communities/emiten.png" alt="Community 3">
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -730,13 +803,14 @@
                                 <p class="news-date">12 Dec 2024</p>
                             </div>
                             <div class="col-12 col-md-8 col-lg-8 news-detail">
-                            <p>Officially Operating: First CKD Electric Bus from VKTR and Karoseri Laksana for TransJakarta</p>
-                            <div class="news-detail-arrow">
-                                <img src="images/arrow-icon.svg" alt="arrow icon">
+                                <p>Officially Operating: First CKD Electric Bus from VKTR and Karoseri Laksana for TransJakarta</p>
+                                <div class="news-detail-arrow">
+                                    <img src="images/arrow-icon.svg" alt="arrow icon">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-2 col-lg-2">
-                            <img src="images/news/news-1.png" class="news-image" alt="news 1" />
+                            <div class="col-12 col-md-2 col-lg-2">
+                                <img src="images/news/news-1.png" class="news-image" alt="news 1" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -750,13 +824,14 @@
                                 <p class="news-date">9 Dec 2024</p>
                             </div>
                             <div class="col-12 col-md-8 col-lg-8 news-detail">
-                            <p>Reducing Carbon Footprint, VKTR and Gapura Angkasa Launch Electric Bus at Soetta Airport</p>
-                            <div class="news-detail-arrow">
-                                <img src="images/arrow-icon.svg" alt="arrow icon">
+                                <p>Reducing Carbon Footprint, VKTR and Gapura Angkasa Launch Electric Bus at Soetta Airport</p>
+                                <div class="news-detail-arrow">
+                                    <img src="images/arrow-icon.svg" alt="arrow icon">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-2 col-lg-2">
-                            <img src="images/news/news-2.jpg" class="news-image" alt="news 2" />
+                            <div class="col-12 col-md-2 col-lg-2">
+                                <img src="images/news/news-2.jpg" class="news-image" alt="news 2" />
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -770,13 +845,14 @@
                                 <p class="news-date">4 Dec 2024</p>
                             </div>
                             <div class="col-12 col-md-8 col-lg-8 news-detail">
-                            <p>PT VKTR Teknologi Mobilitas Tbk Holds Extraordinary General Meeting of Shareholders (GMS) 2023</p>
-                            <div class="news-detail-arrow">
-                                <img src="images/arrow-icon.svg" alt="arrow icon">
+                                <p>PT VKTR Teknologi Mobilitas Tbk Holds Extraordinary General Meeting of Shareholders (GMS) 2023</p>
+                                <div class="news-detail-arrow">
+                                    <img src="images/arrow-icon.svg" alt="arrow icon">
+                                </div>
                             </div>
-                        </div>
-                        <div class="col-12 col-md-2 col-lg-2">
-                            <img src="images/news/news-3.jpg" class="news-image" alt="news 3" />
+                            <div class="col-12 col-md-2 col-lg-2">
+                                <img src="images/news/news-3.jpg" class="news-image" alt="news 3" />
+                            </div>
                         </div>
                     </div>
                 </div>

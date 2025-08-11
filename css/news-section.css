@@ -118,11 +118,11 @@
   }
 
   .news-content {
-    padding: 0;
+    padding: 1rem;
   }
 
   .news-content .news-item {
-    padding: 1rem;
+    padding: 0;
   }
 
   .news-content .row {
@@ -131,6 +131,7 @@
 
   .news-content .container {
     padding: 0;
+    margin-bottom: 1rem;
   }
 
   .news-content .news-date {
@@ -143,5 +144,9 @@
     font-size: 13px;
     font-weight: 500;
     color: #222;
+  }
+
+  .news-content .row:hover .news-detail-arrow {
+    opacity: 0;
   }
 }

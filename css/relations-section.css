@@ -172,7 +172,7 @@
   align-items: center;
   width: 100%;
   padding: 1rem 0;
-  border-bottom: 1px solid #D9D9D9;
+  border-bottom: 1px solid #E8E8E8;
 }
 
 .relations-report .relations-report-updates-list li p {
@@ -252,7 +252,8 @@
 
 @media (max-width: 576px) {
   .relations-title {
-      font-size: 32px;
+      font-size: 20px;
+      font-weight: 300;
   }
 
   .relations-report .relations-report-content {
@@ -262,16 +263,98 @@
 
   .relations-report .relations-report-content img {
     width: 100%;
+    border-radius: 8px;
   }
 
   .relations-status .history {
     padding: 1rem 0;
+    margin-top: 1.5rem;
   }
 
   .relations-status .history li {
     flex: 1;
     flex: 1 0 auto;
     min-width: 200px;
+  }
+
+  .relations-status {
+    padding: 2rem 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .relations-status .current .current-title {
+    font-size: 15px;
+    font-weight: 400;
+  }
+
+  .relations-status .current .current-price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem 0;
+  }
+
+  .relations-status .current .current-price h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+  }
+
+  .relations-status .current .current-price .change-info p {
+    font-size: 14px;
+    font-weight: 800;
+  }
+
+  .relations-status .current .current-updated-at {
+    font-size: 11px;
+    margin-bottom: 1rem;
+  }
+
+  .relations-section a {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .relations-report-content {
+    border-bottom: 1px solid #EAEAEA;
+  }
+
+  .relations-report .relations-wrapper {
+    padding: 2rem 0;
+  }
+
+  .relations-report .relations-report-info h2, .relations-report .relations-report-updates h2 {
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .relations-report .relations-report-info .relations-wrapper > div > p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .custom-pdf-download p {
+    font-size: 13px !important;
+  }
+
+  .relations-report-updates {
+    border-left: none;
+  }
+
+  .relations-report .relations-report-updates-list li {
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+
+  .relations-report .relations-report-updates-list li:last-child {
+    border-bottom: none;
+  }
+
+  .relations-report .relations-report-updates-list li > p {
+    font-size: 13px;
+    margin-bottom: 1rem;
   }
 }
 
