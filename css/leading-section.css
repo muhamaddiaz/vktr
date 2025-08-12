@@ -13,6 +13,18 @@
     z-index: -1;
 }
 
+.leading-section .leading-lines-bg {
+  position: absolute;
+  display: none;
+  top: -20px;
+  width: 100%;
+  height: 500px;
+  background-image: url("../images/lines.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
+
 .leading-section .leading-vector {
     position: absolute;
     bottom: 10%;
@@ -66,7 +78,8 @@
   }
 
   .leading-section .leading-horizontal-line {
-    visibility: hidden;
+    width: 100%;
+    margin-top: -11px;
   }
 
   .leading-section .leading-truck-container {
@@ -91,6 +104,7 @@
   }
 
   .leading-section .leading-lines {
+    visibility: hidden;
     top: 0;
     left: 0;
     right: 0;
@@ -98,5 +112,14 @@
 
   .leading-vector {
     display: none;
+  }
+
+  .leading-section .leading-horizontal-line {
+    width: 100%;
+    margin-top: -6px;
+  }
+
+  .leading-section .leading-lines-bg {
+    display: block;
   }
 }

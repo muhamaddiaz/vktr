@@ -269,12 +269,18 @@
   .relations-status .history {
     padding: 1rem 0;
     margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 1rem;
   }
 
   .relations-status .history li {
-    flex: 1;
-    flex: 1 0 auto;
-    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-width: 0;
   }
 
   .relations-status {
@@ -356,5 +362,18 @@
     font-size: 13px;
     margin-bottom: 1rem;
   }
-}
 
+  .relations-section .history li {
+    padding: 1rem;
+  }
+
+  .relations-section .history li p {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .relations-section .history li h3 {
+    font-size: 15px;
+    font-weight: 600;
+  }
+}

@@ -210,4 +210,20 @@
     .products-vector {
         display: none;
     }
+
+    .products-section .card {
+        border-right: 0 !important;
+    }
+
+    .products-section .container {
+        padding: 0;
+    }
+
+    .products-section .nav.nav-underline {
+        padding: 0 12px;
+    }
+
+    .products-section .btn.btn-primary {
+        margin-top: -1rem !important;
+    }
 }

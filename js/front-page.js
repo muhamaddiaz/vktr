@@ -176,8 +176,6 @@ $(document).ready(function () {
     const priceEl = document.querySelector('.current-price h2');
     animatePrice(priceEl, { trigger: '.relations-section', currency: 'IDR' });
 
-    const priceEl2 = document.querySelectorAll('.history h3');
-    priceEl2.forEach((priceEl) => {
-        animatePrice(priceEl, { trigger: '.relations-section' });
-    });
+    const priceEl2 = document.querySelector('.animate-number');
+    animatePrice(priceEl2, { trigger: '.relations-section' });
 });
